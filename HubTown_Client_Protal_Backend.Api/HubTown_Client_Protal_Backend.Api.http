@@ -1,0 +1,6 @@
+@HubTown_Client_Protal_Backend.Api_HostAddress = http://localhost:5265
+
+GET {{HubTown_Client_Protal_Backend.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

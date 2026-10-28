@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CDBE502C-EDBA-4514-99F1-B7AE1BAFF9F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9E622D76-D97A-4C06-8CB5-71E3934CD3E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customer", "Customer", "{D32B0CEF-F93C-485E-A972-10E44030C453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubTown_Client_Protal_Backend.Api", "HubTown_Client_Protal_Backend.Api\HubTown_Client_Protal_Backend.Api.csproj", "{025AC1ED-DB36-499C-B3DC-9FB7FBFD865E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BA6218A6-9571-4444-8ED3-8952855F0D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubTown_Client_Protal_Backend.Shared", "HubTown_Client_Protal_Backend.Shared\HubTown_Client_Protal_Backend.Shared.csproj", "{CFD1FC6B-BC70-4E75-8299-25BB4CAE42D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{025AC1ED-DB36-499C-B3DC-9FB7FBFD865E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025AC1ED-DB36-499C-B3DC-9FB7FBFD865E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025AC1ED-DB36-499C-B3DC-9FB7FBFD865E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025AC1ED-DB36-499C-B3DC-9FB7FBFD865E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD1FC6B-BC70-4E75-8299-25BB4CAE42D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD1FC6B-BC70-4E75-8299-25BB4CAE42D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD1FC6B-BC70-4E75-8299-25BB4CAE42D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD1FC6B-BC70-4E75-8299-25BB4CAE42D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E622D76-D97A-4C06-8CB5-71E3934CD3E9} = {CDBE502C-EDBA-4514-99F1-B7AE1BAFF9F5}
+		{D32B0CEF-F93C-485E-A972-10E44030C453} = {9E622D76-D97A-4C06-8CB5-71E3934CD3E9}
+		{025AC1ED-DB36-499C-B3DC-9FB7FBFD865E} = {D32B0CEF-F93C-485E-A972-10E44030C453}
+		{BA6218A6-9571-4444-8ED3-8952855F0D2F} = {CDBE502C-EDBA-4514-99F1-B7AE1BAFF9F5}
+		{CFD1FC6B-BC70-4E75-8299-25BB4CAE42D9} = {BA6218A6-9571-4444-8ED3-8952855F0D2F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9633CD17-A8B4-4763-A9C7-1D3812CFB860}
+	EndGlobalSection
+EndGlobal
